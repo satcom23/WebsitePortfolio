@@ -1,3 +1,9 @@
+import "./style.css"
+
 export default function Contact() {
-    return null
+    return (
+        <div className = "contact">
+            Contact Me
+        </div>
+    )
 }

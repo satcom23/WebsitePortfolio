@@ -1,0 +1,59 @@
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0% 25%;
+    color:darkcyan;
+}
+.bio{
+    display: flex;
+    color:lightcyan;
+    margin-top: 10%;
+}
+.skills{
+    display:flex;
+    width: 50%;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+.skills li{
+    padding: 10px 0px;
+}
+.headline{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 26px;
+}
+/* #frontend{
+    float:left;
+}
+#backend{
+    float:right;
+} */
+.about{
+    width: 50%;
+}
+.about h1{
+    width: auto;
+    font-size: 32px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+p {
+float:left;
+width: auto;
+}
+.projects{
+    margin-top: 800px;
+    margin-bottom: 800px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.projects header {
+    align-items: center; 
+}

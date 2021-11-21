@@ -1,3 +1,11 @@
+import './style.css'
+
 export default function Projects() {
-    return null
+    return (
+        <div className = "projects">
+            <header>
+                Here are my projects
+            </header>       
+        </div>
+    )
 }

@@ -1,5 +1,3 @@
-//import './App.css';
-import Header from './components/Header'
 import Navbar from './components/Navbar'
 import About from './components/About'
 import Projects from './components/Projects'
@@ -12,10 +10,11 @@ function App() {
   return (
     <main className = "text-gray-400 bg-gray-900 body-font">
       <Navbar />
-      <Header />
-      <About />
+      <div className = "bio">
+        <About />
+        <Skills />
+      </div>
       <Projects />
-      <Skills />
       <Contact />
     </main>
   );

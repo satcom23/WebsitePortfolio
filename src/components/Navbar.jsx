@@ -1,10 +1,10 @@
 import { BrowserRouter as Link } from 'react-router-dom';
+import "./style.css"
 
 export default function Navbar() {
 
     return (
-        <div className="Navbar">
-          <header>
+        <div className="navbar">
             <ul>
                 <li>
                     <Link to='/'>Home</Link>
@@ -22,7 +22,6 @@ export default function Navbar() {
                     <Link to='/contact'>Contact Me</Link>
                 </li>
             </ul>
-          </header>
         </div>
       );
 }
