@@ -1,21 +1,33 @@
+
 .navbar ul{
+
     display: flex;
     justify-content: space-around;
     margin: 0% 25%;
     color:darkcyan;
 }
-.bio{
+.navbar {
+    width: 100%;
+    background-color: #303030;
+}
+.about{
     display: flex;
     color:lightcyan;
-    margin-top: 10%;
+    margin: 10% 5%;
+}
+.intro{
+    width: 50%;
+}
+.bio{
+    width: 50%;
 }
 .skills{
     display:flex;
-    width: 50%;
     justify-content: space-around;
     align-content: center;
     flex-wrap: wrap;
-
+    width: 100%;
+    background-color: #303030;
 }
 .skills li{
     padding: 10px 0px;
@@ -32,9 +44,7 @@
 #backend{
     float:right;
 } */
-.about{
-    width: 50%;
-}
+
 .about h1{
     width: auto;
     font-size: 32px;
